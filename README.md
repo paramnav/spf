@@ -4,17 +4,13 @@ A generalized framework for spatial predictions using machine learning models, d
 
 ## Overview
 
-The Spatial Prediction Framework (SPF) is a comprehensive toolkit for creating spatial predictions from point measurements and gridded features. It provides a standardized approach to spatial prediction problems, supporting both tree-based and deep learning models with automated hyperparameter optimization.
+The Spatial Prediction Framework (SPF) is a comprehensive toolkit for creating spatial predictions from point measurements and gridded features. It provides a standardized approach to spatial prediction problems, supporting both tree-based and deep learning models.
 
 ## Features
 
 - **Generalized Framework**: Works with any spatial dataset following the specified format
 - **Multiple Model Types**: Support for Random Forest, XGBoost, CatBoost, Neural Networks, and TabPFN
-- **Automated Hyperparameter Optimization**: Built-in optimization using Optuna, Hyperopt, or scikit-learn
-- **Spatial Validation**: Proper spatial cross-validation to avoid overfitting
-- **Flexible Input Formats**: Support for .npy, .nc (NetCDF), and .grd files
-- **Comprehensive Evaluation**: Multiple evaluation metrics including spatial validation
-- **Reproducible Results**: Configurable random seeds and logging
+- **Input Formats**: Support for .npy, .nc (NetCDF), and .grd files
 
 ## Repository Structure
 
